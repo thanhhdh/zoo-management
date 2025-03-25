@@ -30,7 +30,7 @@ public class SendMail {
 
 	public void sendMail(String email, String title, String orderCode, List<CartDTO> cartDTOs, CouponEntity couponEntity) {
 	    String fromEmail = "hdhthanh.20it3@vku.udn.vn";
-	    String password = "plhp uvlb jnea euif";
+	    String password = "";
 	    String host = "smtp.gmail.com";
 	    String port = "587";
 
