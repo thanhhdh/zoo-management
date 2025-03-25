@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<decorators defaultdir="/decorators">
+	<!-- Apply web template -->
+	<decorator name="web" page="web.jsp">
+		<pattern>/trang-chu</pattern>
+		<pattern>/dong-vat</pattern>
+		<pattern>/dat-ve</pattern>
+		<pattern>/gio-hang</pattern>
+		<pattern>/thu-tuc-thanh-toan</pattern>
+		<pattern>/thanh-toan</pattern>
+		<pattern>/ve-chung-toi</pattern>
+		<pattern>/dang-nhap</pattern>
+		<pattern>/dang-ky</pattern>
+		<pattern>/cau-hoi</pattern>
+		<pattern>/gio-mo-cua</pattern>
+		<pattern>/quy-dinh</pattern>
+	</decorator>
+	<!-- Apply admin template -->
+	<decorator name="admin" page="admin.jsp">
+		<pattern>/admin*</pattern>
+	</decorator>
+</decorators>
